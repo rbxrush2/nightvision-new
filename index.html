@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Night Vision Tpack – 1.21.5+</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0c0c0c;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #222244, #000022);
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      color: #8fd3ff;
+    }
+    p {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+      line-height: 1.6;
+    }
+    .features {
+      background-color: #12121b;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "🌙";
+      margin-right: 8px;
+    }
+    .download {
+      text-align: center;
+      padding: 2rem;
+    }
+    .btn {
+      background-color: #8fd3ff;
+      color: black;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #6ebde6;
+    }
+    #status {
+      margin-top: 1rem;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Night Vision Texture Pack (1.21.5+)</h1>
+    <p>Turn the darkness into daylight! This texture pack lets you see clearly in caves, the Nether, and everywhere – no potion needed.</p>
+  </header>
+
+  <section class="features">
+    <h2>✨ Features</h2>
+    <ul>
+      <li>Full Bright/Night Vision effect</li>
+      <li>Works in caves, End, Nether</li>
+      <li>No lag or FPS drop</li>
+      <li>Survival, multiplayer, and server-friendly</li>
+      <li>Compatible with Minecraft 1.21.5+</li>
+    </ul>
+  </section>
+
+  <div class="download">
+    <button class="btn" onclick="startCooldown()">Download Pack</button>
+    <div id="status"></div>
+  </div>
+
+  <footer>
+    © 2025 rbxrush2 | See Everything. Fear Nothing. 👀
+  </footer>
+
+  <script>
+    function startCooldown() {
+      let seconds = 3;
+      const status = document.getElementById('status');
+      status.innerText = `Redirecting in ${seconds}...`;
+
+      const countdown = setInterval(() => {
+        seconds--;
+        if (seconds > 0) {
+          status.innerText = `Redirecting in ${seconds}...`;
+        } else {
+          clearInterval(countdown);
+          status.innerText = 'Redirecting...';
+          window.location.href = "https://exe.io/m7cuO";
+        }
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>
